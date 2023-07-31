@@ -30,9 +30,11 @@
       <div class="card p-2 text-center w-50">
         <img src="moody-logo.png" height="250" alt="Moody Kittens">
         <div class="mt-2">
-          <b class="text-center">Hello Student</b>
+          <b class="text-center" id="username">Hello Student</b>
           <p>This is your starter template only feel free to modify the look as you tackle the challenges that we have laid out.</p>
           <small>Good Luck and Have Fun!</small>
+          <br>
+          <input placeholder="Your name" type="text" name="name" id="username-input" style="color:black; text-align:center"/>
           <br>
           <button onclick="getStarted()">Get Started</button>
         </div>
@@ -41,12 +43,12 @@
     <div class="p-2">
       <div id="kittens" class="d-flex align-items-center flex-wrap">
       </div>
+    </div>
+    <script src="app.js" defer></script>
   </main>
   <footer class="card bg-dark text-light p-2 d-flex align-items-center justify-content-center">
     <small>Created with <span style="color: var(--primary)">&hearts;</span> by CodeWorks</small>
   </footer>
-
-  <script src="app.js"></script>
 </body>
 
 </html>
